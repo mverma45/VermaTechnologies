@@ -1,0 +1,24 @@
+/* index */
+body {
+  font-size: 14px;
+}
+
+/* Google Fonts */
+body {
+  font-family: "Style Script", cursive;
+}
+
+.customers {
+  font-family: "Style Script", cursive;
+  text-align: center;
+}
+
+label {
+  display: block;
+  font: 1rem "Fira Sans", sans-serif;
+}
+
+input,
+label {
+  margin: 0.4rem 0;
+}

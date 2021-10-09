@@ -8,17 +8,41 @@ body {
   font-family: "Style Script", cursive;
 }
 
+.main-heading {
+  margin: 2em 2em;
+}
+
+.btn-success {
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  left: 25%;
+}
+
+.image-background {
+  /* outline: 2px solid black; */
+  padding: 10em;
+  background-size: 50%;
+  background-image: url(../Images/background.jpg);
+  background-size: cover;
+}
+
+.image-main {
+  background-image: url("../Images/man_celebtrates.jpg");
+  height: 45em;
+  left: 55em;
+  position: absolute;
+  top: 11em;
+  width: 40em;
+  background-repeat: no-repeat;
+}
+
 .customers {
   font-family: "Style Script", cursive;
   text-align: center;
 }
 
-label {
-  display: block;
-  font: 1rem "Fira Sans", sans-serif;
-}
-
-input,
-label {
-  margin: 0.4rem 0;
+.text-main {
+  text-align: center;
+  font-size: 1.5rem;
 }

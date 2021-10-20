@@ -4,41 +4,154 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
-    <!-- End CSS -->
-
-    <!-- CDN Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- CDN Bootstrap End -->
-    <title>Verma Technologies, LLC</title>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Verma Technologies</title>
   </head>
   <body>
-      <nav>
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Verma Technologies, LLC</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="pricing.html">Pricing</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact US</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">Verma Technologies, LLC</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >Home <span class="sr-only"></span
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="offers.html">What I offer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pricing.html">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="work.html">Work with Me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <h1 class="pricing">Pricing</h1>
+    <h2 class="options">Prices starting as low as $500 for full website.</h2>
+    <section class="pricing-main">
+      <div class="card text-white bg-primary mb-3" style="max-width: 18rem">
+        <div class="card-header">Starter*</div>
+        <div class="card-body">
+          <h5 class="card-title">Starter Site</h5>
+          <p class="card-text">$500-$749.99</p>
+          <ul class="card-pricing">
+            <li>2 Page Website Max</li>
+            <li>Hosting</li>
+            <li>Images and Content provided by client</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card text-white bg-primary mb-3" style="max-width: 18rem">
+        <div class="card-header">Pro*</div>
+        <div class="card-body">
+          <h5 class="card-title">Pro Site</h5>
+          <p class="card-text">$750-$899.99</p>
+          <ul class="card-pricing">
+            <li>Everything from Starter Site</li>
+            <li>plus 3 Additional pages</li>
+            <li>SEO (Search engine optimization)</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card text-white bg-primary mb-3" style="max-width: 18rem">
+        <div class="card-header">Elite*</div>
+        <div class="card-body">
+          <h5 class="card-title">Elite Package</h5>
+          <p class="card-text">$900+</p>
+          <ul class="card-pricing">
+            <li>Everything from Pro Site</li>
+            <li>Website Analtics Report Every Month</li>
+            <li>Website Maintenance done monthly</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card text-white bg-primary mb-3" style="max-width: 18rem">
+        <div class="card-header">Additional Services</div>
+        <div class="card-body">
+          <h5 class="card-title">$25 per service</h5>
+          <p class="card-text">
+            Additional Services to keep your site up and running
+          </p>
+          <ul class="card-pricing">
+            <li>Website Analtics Report monthly service</li>
+            <li>Website Maintenance</li>
+            <li>Upload Additional content on site</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <article>
+      <div>
+        <p class="complex">
+          *Pricing varies on complexity of the website, once the contract is
+          signed and agreed by all parties if any additional services are added
+          I charge an hourly rate of $50
+        </p>
+      </div>
+    </article>
 
+    <!-- <div class="card text-dark bg-warning mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h5 class="card-title">Warning card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+<div class="card text-dark bg-info mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h5 class="card-title">Info card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+<div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h5 class="card-title">Light card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h5 class="card-title">Dark card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div> -->
   </body>
 </html>

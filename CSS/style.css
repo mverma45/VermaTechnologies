@@ -46,3 +46,47 @@ body {
   text-align: center;
   font-size: 1.5rem;
 }
+/* offers */
+.offers-heading {
+  padding-left: 2rem;
+}
+
+.offers {
+  padding-left: 3em;
+  padding-top: 2em;
+}
+/* work with me */
+.work-heading {
+  padding-left: 2rem;
+}
+
+.card-main {
+  padding-left: 3rem;
+  padding-top: 3rem;
+}
+
+/* Pricing */
+.pricing {
+  text-align: center;
+}
+
+.options {
+  margin-top: 0.25em;
+  margin-left: 0.5em;
+  text-align: center;
+}
+
+.pricing-main {
+  display: flex;
+  margin-top: 3em;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.card-pricing {
+  list-style-type: none;
+}
+
+.complex {
+  text-align: center;
+}

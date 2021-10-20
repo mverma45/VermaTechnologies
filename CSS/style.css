@@ -23,32 +23,14 @@ body {
   left: 25%;
 }
 
-.image-background {
-  /* outline: 2px solid black; */
-  padding: 10em;
-  background-size: 50%;
-  background-image: url(../Images/background.jpg);
-  background-size: cover;
-}
-
-/* .image-main {
-  background-image: url("../Images/man_celebtrates.jpg");
-  height: 45em;
-  left: 55em;
-  position: absolute;
-  top: 11em;
-  width: 40em;
-  background-repeat: no-repeat;
-} */
-
-.customers {
-  font-family: "Style Script", cursive;
-  text-align: center;
-}
-
 .text-main {
   text-align: center;
   font-size: 1.5rem;
+}
+
+.celebrate {
+  width: 100px;
+  height: 100px;
 }
 /* offers */
 .offers-heading {
@@ -93,4 +75,13 @@ body {
 
 .complex {
   text-align: center;
+}
+
+/* footer */
+.footer {
+  margin-top: 25rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }

@@ -9,7 +9,11 @@ body {
 }
 
 .main-heading {
-  margin: 2em 2em;
+  padding: 2rem 2rem;
+}
+
+.business-heading {
+  padding: 0 2rem 0 2rem;
 }
 
 .btn-success {
@@ -27,7 +31,7 @@ body {
   background-size: cover;
 }
 
-.image-main {
+/* .image-main {
   background-image: url("../Images/man_celebtrates.jpg");
   height: 45em;
   left: 55em;
@@ -35,7 +39,7 @@ body {
   top: 11em;
   width: 40em;
   background-repeat: no-repeat;
-}
+} */
 
 .customers {
   font-family: "Style Script", cursive;

@@ -1,17 +1,18 @@
-/* index */
-body {
-  font-size: 14px;
-}
-
 /* Google Fonts */
 body {
   font-family: "Style Script", cursive;
+  font-size: 14px;
 }
-
+/* home page */
 .main-heading {
   padding: 2rem 2rem;
 }
 
+.grow-main {
+  margin: 2em 0 0 2em;
+  text-align: center;
+  font-size: 1em;
+}
 .index-main {
   display: block;
   margin-left: auto;

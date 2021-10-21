@@ -12,8 +12,14 @@ body {
   padding: 2rem 2rem;
 }
 
+.index-main {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 .business-heading {
-  padding: 0 2rem 0 2rem;
+  padding: 2rem 2rem 0 2rem;
 }
 
 .btn-success {

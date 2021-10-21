@@ -4,7 +4,8 @@ body {
   font-size: 14px;
 }
 /* home page */
-.main-heading {
+.main-heading,
+.main-btn {
   padding: 2rem 2rem;
 }
 
@@ -42,6 +43,7 @@ body {
 /* offers */
 .offers-heading {
   padding-left: 2rem;
+  text-align: center;
 }
 
 .offers {
@@ -51,8 +53,15 @@ body {
 /* work with me */
 .work-heading {
   padding-left: 2rem;
+  text-align: center;
 }
 
+.success {
+  padding: 2em 0 0 2em;
+}
+.work-btn {
+  margin: 2em 0 0 2em;
+}
 .card-main {
   padding-left: 3rem;
   padding-top: 3rem;

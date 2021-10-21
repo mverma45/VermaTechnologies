@@ -1,4 +1,5 @@
-function grow() {
-    let click = document.getElementById('#grow');
-    click.click();
+function click() {
+    let click = document.getElementById('click');
+    // click.click();
+    alert("it works");
 }

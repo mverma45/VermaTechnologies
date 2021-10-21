@@ -51,6 +51,13 @@ body {
   padding-top: 3rem;
 }
 
+.services {
+  display: flex;
+  flex-direction: row;
+  padding: 2em 2em 2em 2em;
+  justify-content: space-between;
+}
+
 /* Pricing */
 .pricing {
   text-align: center;

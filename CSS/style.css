@@ -109,7 +109,21 @@ body {
   justify-content: space-around;
 }
 
-/* .logo {
-  width: 100%;
-  height: -100%;
+/* media queries */
+
+@media (max-width: 800px) {
+  .services,
+  .services2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+/* @media (max-width: 1290px) {
+  .card-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 } */

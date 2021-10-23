@@ -15,10 +15,9 @@ body {
   font-size: 1em;
 }
 .index-main {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .business-heading {
   padding: 2rem 2rem 0 2rem;
@@ -112,6 +111,32 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+/* testimoninals */
+.test {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-text {
+  align-items: center;
+  padding: 0 0 1em 1em;
+}
+
+.test-author {
+  padding: 0.5em 0 0 1.75em;
+}
+.test-title,
+.test-company {
+  padding: 1em 0 0.05em 1em;
+}
+
+.test-heading {
+  text-align: center;
+  padding: 0.5em 0 0.05em 0.5em;
 }
 
 /* media queries */

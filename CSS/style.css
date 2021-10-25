@@ -104,6 +104,22 @@ body {
   text-align: center;
 }
 
+.singledOut {
+  display: flex;
+  justify-content: center;
+}
+
+#center,
+#center2,
+#centered {
+  display: flex;
+  justify-content: center;
+}
+
+.hireMe {
+  padding-top: 3em;
+  text-align: center;
+}
 /* footer */
 .footer {
   margin-top: 25rem;

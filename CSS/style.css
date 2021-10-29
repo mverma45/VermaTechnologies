@@ -1,22 +1,23 @@
-/* index */
-body {
-  font-size: 14px;
-}
-
 /* Google Fonts */
 body {
   font-family: "Style Script", cursive;
+  font-size: 14px;
 }
-
-.main-heading {
+/* home page */
+.main-heading,
+.main-btn {
   padding: 2rem 2rem;
 }
 
+.grow-main {
+  margin: 2em 0 0 2em;
+  text-align: center;
+  font-size: 1em;
+}
 .index-main {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .business-heading {
   padding: 2rem 2rem 0 2rem;
@@ -41,6 +42,7 @@ body {
 /* offers */
 .offers-heading {
   padding-left: 2rem;
+  text-align: center;
 }
 
 .offers {
@@ -50,18 +52,30 @@ body {
 /* work with me */
 .work-heading {
   padding-left: 2rem;
+  text-align: center;
 }
 
+.success {
+  padding: 2em 0 0 2em;
+}
+.work-btn {
+  margin: 2em 0 0 2em;
+}
 .card-main {
   padding-left: 3rem;
   padding-top: 3rem;
 }
 
-.services {
+.card {
+  margin-top: 2em;
+}
+.services,
+.services2 {
   display: flex;
   flex-direction: row;
   padding: 2em 2em 2em 2em;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
 }
 
 /* Pricing */
@@ -90,6 +104,22 @@ body {
   text-align: center;
 }
 
+.singledOut {
+  display: flex;
+  justify-content: center;
+}
+
+#center,
+#center2,
+#centered {
+  display: flex;
+  justify-content: center;
+}
+
+.hireMe {
+  padding-top: 3em;
+  text-align: center;
+}
 /* footer */
 .footer {
   margin-top: 25rem;
@@ -97,4 +127,41 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+/* testimoninals */
+.test {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-text {
+  align-items: center;
+  padding: 0 0 1em 1em;
+}
+
+.test-author {
+  padding: 0.5em 0 0 1.75em;
+}
+.test-title,
+.test-company {
+  padding: 1em 0 0.05em 1em;
+}
+
+.test-heading {
+  text-align: center;
+  padding: 0.5em 0 0.05em 0.5em;
+}
+
+/* media queries */
+
+@media (max-width: 700px) {
+  .services,
+  .services2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
 }

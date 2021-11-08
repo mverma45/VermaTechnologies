@@ -165,3 +165,9 @@ body {
     justify-content: space-around;
   }
 }
+
+@media (max-width: 585px) {
+  .fa-copyright {
+    font-size: 10px;
+  }
+}

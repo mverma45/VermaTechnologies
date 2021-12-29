@@ -64,8 +64,8 @@ body {
   margin: 2em 0 0 2em;
 }
 .card-main {
-  padding-left: 3rem;
-  padding-top: 3rem;
+  display: flex;
+  justify-content: center;
 }
 
 .card {
@@ -145,11 +145,12 @@ body {
 }
 
 .test-author {
-  padding: 0.5em 0 0 1.75em;
+  text-align: center;
 }
 .test-title,
-.test-company {
-  padding: 1em 0 0.05em 1em;
+.test-company,
+.title {
+  text-align: center;
 }
 
 .test-heading {

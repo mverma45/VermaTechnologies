@@ -60,9 +60,11 @@ body {
 .success {
   padding: 2em 0 0 2em;
 }
+
 .work-btn {
   margin: 2em 0 0 2em;
 }
+
 .card-main {
   display: flex;
   justify-content: center;
@@ -71,6 +73,7 @@ body {
 .card {
   margin-top: 2em;
 }
+
 .services,
 .services2 {
   display: flex;
@@ -80,48 +83,17 @@ body {
   align-items: center;
 }
 
-/* Pricing */
-.pricing {
-  text-align: center;
-}
-
-.options {
-  margin-top: 0.25em;
-  margin-left: 0.5em;
-  text-align: center;
-}
-
-.pricing-main {
-  display: flex;
-  margin-top: 3em;
-  list-style-type: none;
-  justify-content: space-around;
-}
-
-.card-pricing {
-  list-style-type: none;
-}
-
-.complex {
-  text-align: center;
-}
-
 .singledOut {
   display: flex;
   justify-content: center;
 }
 
-#center,
-#center2,
-#centered {
-  display: flex;
-  justify-content: center;
-}
 
 .hireMe {
   padding-top: 3em;
   text-align: center;
 }
+
 /* footer */
 .footer {
   margin-top: 25rem;

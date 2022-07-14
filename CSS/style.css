@@ -1,6 +1,6 @@
 /* Google Fonts */
 body {
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 14px;
 }
 /* home page */
@@ -87,7 +87,6 @@ body {
   justify-content: center;
 }
 
-
 .hireMe {
   padding-top: 3em;
   text-align: center;
@@ -131,16 +130,15 @@ body {
 
 /* about me */
 
-.about-me-title{
+.about-me-title {
   text-align: center;
 }
 
-.about-me-para{
+.about-me-para {
   font-size: 1em;
   /* top | right | bottom | left */
-  padding: 1em 1em .02em 1em;
+  padding: 1em 1em 0.02em 1em;
 }
-
 
 /* media queries */
 
